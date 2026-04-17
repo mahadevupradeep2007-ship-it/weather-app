@@ -1,0 +1,84 @@
+/* 🌈 Background */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff);
+}
+
+/* 📦 Main container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* 🧊 Card */
+.card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 🔤 Heading */
+.title {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* 📝 Input */
+.input {
+  padding: 10px;
+  width: 65%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+/* 🔘 Button */
+.button {
+  padding: 10px 15px;
+  margin-left: 8px;
+  border-radius: 6px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #187bcd;
+}
+
+/* 📜 Suggestions dropdown */
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin-top: 5px;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.suggestions li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f1f1f1;
+}
+
+/* 🌦 Weather result */
+.weather-box {
+  margin-top: 20px;
+}
+
+.temp {
+  font-size: 22px;
+  font-weight: bold;
+}
