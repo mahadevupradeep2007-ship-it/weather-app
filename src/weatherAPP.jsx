@@ -6,7 +6,6 @@ function App() {
   const [suggestions, setSuggestions] = useState([]);
   const [weather, setWeather] = useState(null);
 
-  // 🔥 Fetch suggestions
   const handleInputChange = async (e) => {
     const value = e.target.value;
     setQuery(value);
@@ -27,8 +26,6 @@ function App() {
       console.error(err);
     }
   };
-
-  // 🔥 Fetch weather
   const handleSearch = async () => {
     if (!query) return;
 
